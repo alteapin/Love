@@ -73,5 +73,56 @@ margin-right: 30px;
 
     }
 
-    
-    
+    @media screen and (min-width: 300px) and (max-width: 500px)
+     {
+
+        .empty {
+            width: 800px;
+            overflow: hidden;
+            height: 170px;
+        }
+
+
+        .text {
+            padding-right: 15%;
+          
+        }
+
+
+
+        .girl {
+            width: 800px;
+        }
+
+        .boy {
+            width: 800px;
+        }
+
+
+        .container-girl {
+            position: fixed;
+            bottom: 0;
+            right: 40%;
+            margin-right: 20px;
+            z-index: 1;
+            
+            
+            }
+
+            .container-boy {
+                position: fixed;
+                left: 10%;
+                bottom: 0;
+                margin-left: 20px;
+                z-index: 1;
+               
+                }
+
+                .girl-flower {
+                    height: 90vh;
+                    margin-block-start: 690px;
+        
+                }
+            
+
+     }
