@@ -1,11 +1,33 @@
 * {
     box-sizing: border-box;
+    margin-block-start: 0;
+    margin-block-end: 0;
+
    
 }
+
 
 body {
     position: relative;
     flex-direction: row;
+    background-color: rgb(252, 231, 231);
+}
+
+
+.empty {
+    background-color: #a00017;
+    width: 100%;
+    height: 175px;
+ 
+}
+
+.text {
+    text-align: right;
+    padding-block-start: 90px;
+    padding-right: 30px;
+    font-family: 'Lato', sans-serif;
+    font-size: 32px;
+    color: rgb(252, 231, 231);
 }
 
 .container-girl {
@@ -14,6 +36,7 @@ bottom: 0;
 right: 45%;
 margin-right: 30px;
 z-index: 1;
+
 
 }
 
